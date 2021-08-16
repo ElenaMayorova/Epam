@@ -1,0 +1,19 @@
+2021-08-15 09:09:14,584 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-15 09:09:28,572 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (6dbbdbfd403656f425563ab34252e256)
+2021-08-15 09:09:40,301 INFO p.EpamMain [main] Запущен сайт
+2021-08-15 09:09:40,487 INFO w.BaseHooks [main] Очистка cookies
+2021-08-15 09:09:43,431 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-16 08:34:07,844 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-16 08:34:30,226 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (a2965a0bd55c5e742e6555479f64abd4)
+2021-08-16 08:34:34,292 INFO w.BaseHooks [main] Очистка cookies
+2021-08-16 08:34:38,560 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-16 09:23:37,396 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-16 09:24:27,673 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (7bd71c0d5f2dbbf9fb4a8da0155dae2f)
+2021-08-16 09:24:33,430 INFO w.BaseHooks [main] Очистка cookies
+2021-08-16 09:25:09,289 INFO w.BaseHooks [main] Закрытие браузера 
+
+
