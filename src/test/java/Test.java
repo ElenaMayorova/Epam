@@ -17,7 +17,7 @@ public class Test extends BaseHooks {
 
         //Открываем сайт Otus.ru
         epamMain.open();
-
+        Assert.assertEquals("Events Portal", driver.getTitle());
     }
 
 }

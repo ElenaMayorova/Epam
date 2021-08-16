@@ -18,7 +18,6 @@ public class EpamMain extends AbstractPage {
 
     public EpamMain open() {
         driver.get(config.epamUrl());
-        Assert.assertEquals("Events Portal", driver.getTitle());
         logger.info("Запущен сайт", config.epamUrl());
         return this;
     }
