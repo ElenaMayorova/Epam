@@ -17,3 +17,299 @@
 2021-08-16 09:25:09,289 INFO w.BaseHooks [main] Закрытие браузера 
 
 
+2021-08-20 21:39:24,447 INFO w.BaseHooks [pool-1-thread-3] Инициализация драйвера
+2021-08-20 21:39:24,448 INFO w.BaseHooks [pool-1-thread-5] Инициализация драйвера
+2021-08-20 21:39:24,447 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 21:39:24,447 INFO w.BaseHooks [pool-1-thread-4] Инициализация драйвера
+2021-08-20 21:39:24,448 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-20 21:40:03,090 INFO w.BaseHooks [pool-1-thread-5] Запущен webdriver ChromeDriver: chrome on WINDOWS (04785ec569e4c636ffbd667e26a54dc9)
+2021-08-20 21:40:03,090 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (04785ec569e4c636ffbd667e26a54dc9)
+2021-08-20 21:40:03,093 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (04785ec569e4c636ffbd667e26a54dc9)
+2021-08-20 21:40:03,118 INFO w.BaseHooks [pool-1-thread-4] Запущен webdriver ChromeDriver: chrome on WINDOWS (04785ec569e4c636ffbd667e26a54dc9)
+2021-08-20 21:40:03,164 INFO w.BaseHooks [pool-1-thread-3] Запущен webdriver ChromeDriver: chrome on WINDOWS (04785ec569e4c636ffbd667e26a54dc9)
+2021-08-20 21:40:15,230 INFO p.EpamMain [pool-1-thread-9] Запущен сайт
+2021-08-20 21:40:16,880 INFO p.EpamMain [pool-1-thread-10] Запущен сайт
+2021-08-20 21:40:18,043 INFO p.EpamMain [pool-1-thread-6] Запущен сайт
+2021-08-20 21:40:19,193 INFO p.EpamMain [pool-1-thread-8] Запущен сайт
+2021-08-20 21:40:20,501 INFO p.EpamMain [pool-1-thread-7] Запущен сайт
+2021-08-20 21:40:21,008 INFO w.BaseHooks [pool-1-thread-9] Очистка cookies
+2021-08-20 21:40:21,024 INFO w.BaseHooks [pool-1-thread-10] Очистка cookies
+2021-08-20 21:40:21,108 INFO w.BaseHooks [pool-1-thread-6] Очистка cookies
+2021-08-20 21:40:21,454 INFO w.BaseHooks [pool-1-thread-8] Очистка cookies
+2021-08-20 21:40:21,755 INFO w.BaseHooks [pool-1-thread-7] Очистка cookies
+2021-08-20 21:40:39,330 INFO w.BaseHooks [pool-1-thread-3] Закрытие браузера 
+
+
+2021-08-20 21:47:37,252 INFO w.BaseHooks [pool-1-thread-3] Инициализация драйвера
+2021-08-20 21:47:37,251 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 21:47:37,252 INFO w.BaseHooks [pool-1-thread-4] Инициализация драйвера
+2021-08-20 21:47:37,251 INFO w.BaseHooks [pool-1-thread-5] Инициализация драйвера
+2021-08-20 21:47:37,251 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-20 21:48:12,204 INFO w.BaseHooks [pool-1-thread-5] Запущен webdriver ChromeDriver: chrome on WINDOWS (702a88c8251098d1d90bd099bc39e5c6)
+2021-08-20 21:48:13,570 INFO w.BaseHooks [pool-1-thread-4] Запущен webdriver ChromeDriver: chrome on WINDOWS (1d2c3ff69946d7d179d3fbfa12dad488)
+2021-08-20 21:48:13,888 INFO w.BaseHooks [pool-1-thread-3] Запущен webdriver ChromeDriver: chrome on WINDOWS (1d2c3ff69946d7d179d3fbfa12dad488)
+2021-08-20 21:48:13,918 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (1d2c3ff69946d7d179d3fbfa12dad488)
+2021-08-20 21:48:14,619 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (1d2c3ff69946d7d179d3fbfa12dad488)
+2021-08-20 21:48:28,764 INFO p.EpamMain [pool-1-thread-7] Запущен сайт
+2021-08-20 21:48:29,767 INFO p.EpamMain [pool-1-thread-6] Запущен сайт
+2021-08-20 21:48:30,538 INFO p.EpamMain [pool-1-thread-8] Запущен сайт
+2021-08-20 21:48:31,925 INFO p.EpamMain [pool-1-thread-9] Запущен сайт
+2021-08-20 21:48:32,950 INFO p.EpamMain [pool-1-thread-10] Запущен сайт
+2021-08-20 21:48:34,242 INFO w.BaseHooks [pool-1-thread-6] Очистка cookies
+2021-08-20 21:48:34,248 INFO w.BaseHooks [pool-1-thread-7] Очистка cookies
+2021-08-20 21:48:34,271 INFO w.BaseHooks [pool-1-thread-8] Очистка cookies
+2021-08-20 21:48:34,510 INFO w.BaseHooks [pool-1-thread-9] Очистка cookies
+2021-08-20 21:48:34,762 INFO w.BaseHooks [pool-1-thread-10] Очистка cookies
+2021-08-20 21:48:41,566 INFO w.BaseHooks [pool-1-thread-3] Закрытие браузера 
+
+
+2021-08-20 21:50:42,153 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 21:50:42,153 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-20 21:50:42,152 INFO w.BaseHooks [pool-1-thread-3] Инициализация драйвера
+2021-08-20 21:50:42,153 INFO w.BaseHooks [pool-1-thread-5] Инициализация драйвера
+2021-08-20 21:50:42,152 INFO w.BaseHooks [pool-1-thread-4] Инициализация драйвера
+2021-08-20 21:51:33,370 INFO w.BaseHooks [pool-1-thread-3] Запущен webdriver ChromeDriver: chrome on WINDOWS (7e2d346022ba45d5d310a82fa0be8ce3)
+2021-08-20 21:51:33,432 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (7e2d346022ba45d5d310a82fa0be8ce3)
+2021-08-20 21:51:33,472 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (7e2d346022ba45d5d310a82fa0be8ce3)
+2021-08-20 21:51:33,545 INFO w.BaseHooks [pool-1-thread-5] Запущен webdriver ChromeDriver: chrome on WINDOWS (7e2d346022ba45d5d310a82fa0be8ce3)
+2021-08-20 21:51:33,838 INFO w.BaseHooks [pool-1-thread-4] Запущен webdriver ChromeDriver: chrome on WINDOWS (7e2d346022ba45d5d310a82fa0be8ce3)
+2021-08-20 21:51:43,841 INFO p.EpamMain [pool-1-thread-8] Запущен сайт
+2021-08-20 21:51:45,542 INFO p.EpamMain [pool-1-thread-6] Запущен сайт
+2021-08-20 21:51:48,163 INFO p.EpamMain [pool-1-thread-9] Запущен сайт
+2021-08-20 21:51:49,908 INFO p.EpamMain [pool-1-thread-7] Запущен сайт
+2021-08-20 21:51:52,216 INFO p.EpamMain [pool-1-thread-10] Запущен сайт
+2021-08-20 21:51:53,681 INFO w.BaseHooks [pool-1-thread-8] Очистка cookies
+2021-08-20 21:51:53,769 INFO w.BaseHooks [pool-1-thread-6] Очистка cookies
+2021-08-20 21:51:53,814 INFO w.BaseHooks [pool-1-thread-9] Очистка cookies
+2021-08-20 21:51:54,068 INFO w.BaseHooks [pool-1-thread-7] Очистка cookies
+2021-08-20 21:51:54,766 INFO w.BaseHooks [pool-1-thread-10] Очистка cookies
+2021-08-20 21:51:57,384 INFO w.BaseHooks [pool-1-thread-3] Закрытие браузера 
+
+
+2021-08-20 21:58:34,190 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 21:58:48,555 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (f4b2bbabd1cc079af78b5cb99234a90d)
+2021-08-20 21:58:58,394 INFO p.EpamMain [pool-1-thread-2] Запущен сайт
+2021-08-20 21:59:01,052 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:00:14,550 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:00:32,434 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:01:20,130 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:01:35,981 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (31feaebcac85f921bd0bd6d6d57e1fb0)
+2021-08-20 22:01:45,013 INFO p.EpamMain [pool-1-thread-2] Запущен сайт
+2021-08-20 22:01:45,133 INFO w.BaseHooks [pool-1-thread-2] Очистка cookies
+2021-08-20 22:01:47,463 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:06:18,760 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:06:34,834 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (bdabe3aba593ac60a7c58c3b484b90ab)
+2021-08-20 22:06:41,687 INFO p.EpamMain [pool-1-thread-2] Запущен сайт
+2021-08-20 22:06:41,811 INFO w.BaseHooks [pool-1-thread-2] Очистка cookies
+2021-08-20 22:06:44,051 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:07:51,580 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:08:08,003 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:08:49,161 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:09:07,236 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (06e247e16ec1514d3e5bdb2df996cf75)
+2021-08-20 22:09:19,569 INFO p.EpamMain [pool-1-thread-2] Запущен сайт
+2021-08-20 22:09:19,756 INFO w.BaseHooks [pool-1-thread-2] Очистка cookies
+2021-08-20 22:09:25,782 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:10:19,182 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:10:33,750 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (c610d2a57c6ef40e82b6e4b55edc93e1)
+2021-08-20 22:10:41,477 INFO p.EpamMain [pool-1-thread-2] Запущен сайт
+2021-08-20 22:10:41,585 INFO w.BaseHooks [pool-1-thread-2] Очистка cookies
+2021-08-20 22:10:43,664 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:11:38,000 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:11:57,908 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-20 22:52:56,457 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 22:55:13,350 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-20 22:57:16,046 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 22:58:53,944 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:09:19,747 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:13:25,551 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:18:05,467 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:18:18,394 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (7b6daa81f265f890fe09efec0dd4c712)
+2021-08-20 23:18:25,582 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-20 23:18:26,011 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-20 23:18:27,250 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-20 23:18:51,079 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:19:03,041 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (194d8d4da34a706b6843a5a104d459b4)
+2021-08-20 23:19:18,537 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-20 23:19:24,202 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєРѕР°Р»РєСѓ Events
+2021-08-20 23:19:24,295 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-20 23:19:25,657 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-20 23:53:03,284 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:53:14,896 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (101b5d47bb557116db5fcaa684bcb94d)
+2021-08-20 23:53:24,181 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-20 23:53:27,911 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-20 23:53:28,391 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-20 23:53:30,174 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-20 23:54:28,020 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:54:41,657 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (075562f7d07b39922df79ac2becee6b4)
+2021-08-20 23:54:52,080 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-20 23:54:58,061 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-20 23:54:58,602 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-20 23:55:00,041 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-20 23:55:40,299 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-20 23:55:51,209 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (c77c10e0b40b6f6cd9e964cd15e0bb32)
+2021-08-20 23:56:04,387 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-20 23:56:08,131 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-20 23:56:08,607 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-20 23:56:10,115 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:06:09,109 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:06:21,020 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (30105e0424bce68db03586f6ac7c97f7)
+2021-08-21 00:06:41,198 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:06:45,024 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:06:55,373 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:06:57,004 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:10:03,511 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:10:15,222 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (03442be59d2a82a13f117831cf74924a)
+2021-08-21 00:10:24,757 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:10:28,514 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:10:29,551 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:10:40,085 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:10:42,099 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:15:28,064 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:15:39,910 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (e68d221a76697a6cf009b4aa3c7c5cee)
+2021-08-21 00:15:51,318 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:15:53,620 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:15:55,468 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:16:05,942 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:16:07,497 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:20:34,331 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:20:46,561 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (bc38cb7337ad2aa2a51baa8ee796234a)
+2021-08-21 00:21:05,128 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:21:09,074 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:21:10,182 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:21:20,713 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:21:22,182 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:23:10,356 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:23:21,749 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (a94e8e08c3bc3ae7768c9d9a8c25e69a)
+2021-08-21 00:23:37,142 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:23:43,362 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:23:45,507 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:23:55,961 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:23:57,536 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:28:37,453 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:28:49,644 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (362916e082139df2da0b39e224214f65)
+2021-08-21 00:29:11,815 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:29:16,163 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:29:17,223 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:29:27,845 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:29:29,526 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:34:15,762 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:34:27,696 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (20641471ef720c49cff215a1a6cc8890)
+2021-08-21 00:34:42,831 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:34:45,337 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:34:46,746 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:34:46,985 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:34:48,560 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:35:31,942 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:35:43,000 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (07a36d18f27f712cefdfdf8eeda41448)
+2021-08-21 00:35:52,517 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:35:54,544 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:35:56,313 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:36:06,951 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:36:08,600 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 00:40:58,966 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 00:41:10,232 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (dd9bc740493effb959cb5dec67ba7a6c)
+2021-08-21 00:41:22,731 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 00:41:26,886 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 00:41:27,830 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 00:41:28,269 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 00:41:29,950 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 01:03:39,534 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 01:03:51,601 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (84637aecfc823808930eb3b158179d79)
+2021-08-21 01:04:01,372 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 01:04:05,033 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 01:04:06,034 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 01:04:06,426 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 01:04:07,905 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 01:14:54,427 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 01:15:05,756 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (fc8653cc3cc84f4a6370dce4a75153df)
+2021-08-21 01:15:15,799 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 01:15:19,165 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 01:15:20,167 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 01:15:30,780 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 01:15:32,752 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 01:23:38,241 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 01:23:49,216 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (2cda10e9b128e4aa3d230b8cf519033f)
+2021-08-21 01:23:58,826 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 01:24:02,251 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 01:24:03,175 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 01:24:03,750 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 01:24:05,656 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 01:29:29,339 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 01:29:40,847 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (e56b5f197a9e040434bf80fe49ff2590)
+2021-08-21 01:29:50,935 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 01:29:54,428 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 01:29:55,497 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 01:29:56,145 INFO p.Events [main] РІС‹РїРѕР»РЅРµРЅР° РїСЂРѕРІРµСЂРєР° РєРѕР»РёС‡РµСЃС‚РІР° РєР°СЂС‚РѕС‡РµРє, РѕРЅРѕ СЂР°РІРЅРѕ СЃС‡РµС‚С‡РёРєСѓ РЅР° РєРЅРѕРїРєРµ
+2021-08-21 01:29:56,298 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 01:29:57,894 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 01:31:14,829 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 01:31:26,277 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (9eabe14bd7e57817fdbc1102006ca202)
+2021-08-21 01:31:42,096 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 01:31:44,381 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 01:31:46,277 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° Р±СѓРґСѓС‰РёРµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 01:31:46,993 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 01:31:48,457 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 01:37:50,474 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-21 01:38:04,911 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (bb2f51fd1693656270a911093ad5c7a0)
+2021-08-21 01:38:15,348 INFO p.EpamMain [pool-1-thread-2] Запущен сайт
+2021-08-21 01:38:17,484 INFO p.EpamMain [pool-1-thread-2] Перешли на вклалку Events
+2021-08-21 01:38:19,364 INFO p.Events [pool-1-thread-2] Перешли на будущие мероприятия
+2021-08-21 01:38:19,996 INFO p.Events [pool-1-thread-2] выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-21 01:38:20,148 INFO w.BaseHooks [pool-1-thread-2] Очистка cookies
+2021-08-21 01:38:22,603 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+

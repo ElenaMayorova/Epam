@@ -1,4 +1,7 @@
 package webFactory;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.impl.WebElementSelector;
+import com.codeborne.selenide.impl.WebElementsCollectionWrapper;
 import config.WebsiteConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.apache.logging.log4j.LogManager;
@@ -9,12 +12,14 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import java.util.List;
 import java.util.Locale;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.text.html.CSS;
 import java.util.concurrent.TimeUnit;
 
 public class BaseHooks {
@@ -74,5 +79,4 @@ public class BaseHooks {
     public static WebElement getVisibilityElement(By locator) {
         return waitExplicit.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
-
 }
