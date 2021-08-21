@@ -54,7 +54,7 @@
 <!--                    <parallel>all</parallel>-->
 <!--                    <perCoreThreadCount>true</perCoreThreadCount>-->
 <!--                    <threadCount>6</threadCount>-->
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
+                    <testFailureIgnore>true</testFailureIgnore>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <!--                    <testFailureIgnore>false</testFailureIgnore>-->
                     <argLine>
