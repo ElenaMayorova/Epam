@@ -1,12 +1,16 @@
 package pages;
 
 import config.WebsiteConfig;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.aeonbits.owner.ConfigFactory;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.junit.jupiter.api.DisplayName;
+import org.openqa.selenium.*;
+
+import java.io.ByteArrayInputStream;
 
 import static webFactory.BaseHooks.getClickableElement;
 
@@ -16,21 +20,34 @@ public class EpamMain extends AbstractPage {
     private static final Logger logger = LogManager.getLogger(EpamMain.class);
 
     // локаторы
-  private final By EVENTS = By.xpath("//a[@class='nav-link' and @href='/events']");
+    private final By EVENTS = By.xpath("//*[@href='/events']");
+    private final By ACCEPTCOOKIS = By.xpath("//button[@id='onetrust-accept-btn-handler']");
 
     public EpamMain(WebDriver driver) {
         super(driver);
     }
-//Открываем сайт https://events.epam.com/
+
+    //Открываем сайт https://events.epam.com/
+    @Step("Открытие сайта EpamEvents")
+    @DisplayName("Открытие сайта Epam")
+    @Description("Открытие сайта Epam, принимаем cookis")
     public EpamMain open() {
         driver.get(config.epamUrl());
         logger.info("Запущен сайт", config.epamUrl());
+        getClickableElement(ACCEPTCOOKIS).sendKeys(Keys.ENTER);
+        Allure.addAttachment("Открываем сайт Epam", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+
         return this;
     }
-//Переход на вклалку Events
+
+    //Переход на вклалку Events
+    @Step("Переход на вкладку Events")
+    @DisplayName("Переход на вкладку Events")
     public void openEvents() {
         getClickableElement(EVENTS).sendKeys(Keys.ENTER);
         logger.info("Перешли на вклалку Events");
+        Allure.addAttachment("Переход на вкладку Events", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+
     }
 }
 

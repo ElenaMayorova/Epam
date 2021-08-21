@@ -22,6 +22,8 @@ public class viewUpcomingEventsTest extends BaseHooks {
         epamMain.openEvents();
 //        Открываем предстоящие мероприятия
         events.openUpcomingEvents();
+//        Проверяем наличие карточек мероприятий на ЭФ
+                events.getCards();
 //       Проверяем,что количество карточек равно счетчику на кнопке Upcoming Events
         events.assertUpcomingEvents();
     }

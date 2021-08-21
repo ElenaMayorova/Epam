@@ -20,6 +20,9 @@ public class viewEventCardsTest extends BaseHooks {
         epamMain.openEvents();
 //        Открываем прошедших мероприятия
         events.openPastEvents();
-//Проверяем,что на странице отображаются карточки мероприятий
+//        Проверяем наличие карточек мероприятий на ЭФ
+        events.getCards();
+//Проверка  заполнения полей:язык, название, дата. регистрация.сискеры в карточке
+        events.checkCard();
     }
 }
