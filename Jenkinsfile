@@ -55,7 +55,9 @@ environment {
     def colorCode = '#FF0000'
     if (currentBuild.currentResult == 'SUCCESS') {
         colorCode = '#00FF00'
-    }
+    } else if (currentBuild.currentResult == 'UNSTABLE') {
+                      colorCode = '#ffff00'
+                  }
 
     def slackMessage = "${currentBuild.currentResult}: Job '${env.JOB_NAME}', Build ${env.BUILD_NUMBER}. \nPassed time: ${currentBuild.durationString}. \n\nTESTS:\nTotal = ${summary.totalCount},\nFailures = ${summary.failCount},\nSkipped = ${summary.skipCount},\nPassed = ${summary.passCount} \n\nMore info at: ${env.BUILD_URL}"
     slackSend(color: colorCode, message: slackMessage)
