@@ -16,6 +16,7 @@ public class Events extends EpamMain {
     private static final Logger logger = LogManager.getLogger(Events.class);
     // локаторы
     private final By UPCOMINGEVENTS = By.xpath("//span[contains(text(),'Upcoming events')]");
+    private final By PASTGEVENTS = By.xpath("//span[contains(text(),'Past Events')]");
     private final By UPCOMINGEVENTSCOUNT = By.xpath("//span[contains(@class,'evnt-tab-counter evnt-label small white')]");
     private final By COUNTCARD = By.cssSelector("div.evnt-event-card");
     private final By ACCEPTCOOKIS = By.xpath("//button[@id='onetrust-accept-btn-handler']");
@@ -31,6 +32,13 @@ public class Events extends EpamMain {
         logger.info("Перешли на будущие мероприятия");
     }
 
+    // Открытие предстоящих мероприятий
+    public void openPastEvents() {
+        getClickableElement(ACCEPTCOOKIS).sendKeys(Keys.ENTER);
+        getClickableElement(PASTGEVENTS).click();
+        logger.info("Перешли на прошлые мероприятия");
+    }
+
     //смотрим сколько мероприятий на кнопке Upcoming Events
     public String getUpcomingEventsCount() {
         return getClickableElement(UPCOMINGEVENTSCOUNT).getText();
@@ -42,7 +50,6 @@ public class Events extends EpamMain {
 
 
 //    Количество карточек равно счетчику на кнопке Upcoming Events
-
     public void assertUpcomingEvents() {
         Assertions.assertEquals(getUpcomingEventsCount(),
                 String.valueOf(getEventsCardsCount()));

@@ -313,3 +313,62 @@
 2021-08-21 01:38:22,603 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
 
 
+2021-08-21 13:17:18,521 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-21 13:17:18,521 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-21 13:17:34,250 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (a40de51f15447a82f1024f1a077ffbb0)
+2021-08-21 13:17:34,250 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (a40de51f15447a82f1024f1a077ffbb0)
+2021-08-21 13:17:38,753 INFO p.EpamMain [pool-1-thread-4] Запущен сайт
+2021-08-21 13:17:40,455 INFO p.EpamMain [pool-1-thread-3] Запущен сайт
+2021-08-21 13:17:44,163 INFO p.EpamMain [pool-1-thread-3] Перешли на вклалку Events
+2021-08-21 13:17:44,347 INFO w.BaseHooks [pool-1-thread-4] Очистка cookies
+2021-08-21 13:17:56,192 INFO w.BaseHooks [pool-1-thread-2] Закрытие браузера 
+
+
+2021-08-21 13:20:21,286 INFO w.BaseHooks [main] РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РґСЂР°Р№РІРµСЂР°
+2021-08-21 13:20:32,493 INFO w.BaseHooks [main] Р—Р°РїСѓС‰РµРЅ webdriver ChromeDriver: chrome on WINDOWS (dc0b5d97734511b894335daeee22d328)
+2021-08-21 13:20:40,371 INFO p.EpamMain [main] Р—Р°РїСѓС‰РµРЅ СЃР°Р№С‚
+2021-08-21 13:20:42,243 INFO p.EpamMain [main] РџРµСЂРµС€Р»Рё РЅР° РІРєР»Р°Р»РєСѓ Events
+2021-08-21 13:20:43,904 INFO p.Events [main] РџРµСЂРµС€Р»Рё РЅР° РїСЂРѕС€Р»С‹Рµ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ
+2021-08-21 13:20:44,167 INFO w.BaseHooks [main] РћС‡РёСЃС‚РєР° cookies
+2021-08-21 13:20:45,760 INFO w.BaseHooks [main] Р—Р°РєСЂС‹С‚РёРµ Р±СЂР°СѓР·РµСЂР° 
+
+
+2021-08-21 13:21:25,094 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-21 13:21:25,094 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-21 13:21:44,592 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (4f159800225808391b1b25a13718889d)
+2021-08-21 13:21:44,592 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (4f159800225808391b1b25a13718889d)
+2021-08-21 13:22:01,657 INFO p.EpamMain [pool-1-thread-3] Запущен сайт
+2021-08-21 13:22:02,970 INFO p.EpamMain [pool-1-thread-4] Запущен сайт
+2021-08-21 13:22:08,514 INFO p.EpamMain [pool-1-thread-4] Перешли на вклалку Events
+2021-08-21 13:22:08,714 INFO w.BaseHooks [pool-1-thread-3] Очистка cookies
+2021-08-21 13:22:12,390 INFO w.BaseHooks [pool-1-thread-2] Закрытие браузера 
+
+
+2021-08-21 13:22:15,876 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-21 13:33:06,628 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-21 13:33:06,628 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-21 13:33:22,976 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (c89ac9684697b8681b6ee2be7ba98e57)
+2021-08-21 13:33:22,984 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (c89ac9684697b8681b6ee2be7ba98e57)
+2021-08-21 13:33:31,927 INFO p.EpamMain [pool-1-thread-3] Запущен сайт
+2021-08-21 13:33:34,185 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-21 13:33:34,185 INFO w.BaseHooks [pool-1-thread-2] Закрытие браузера 
+
+
+2021-08-21 13:38:01,492 INFO w.BaseHooks [pool-1-thread-2] Инициализация драйвера
+2021-08-21 13:38:01,492 INFO w.BaseHooks [pool-1-thread-1] Инициализация драйвера
+2021-08-21 13:38:18,869 INFO w.BaseHooks [pool-1-thread-2] Запущен webdriver ChromeDriver: chrome on WINDOWS (72c28f983fb471056f8c5f15872d31e8)
+2021-08-21 13:38:18,869 INFO w.BaseHooks [pool-1-thread-1] Запущен webdriver ChromeDriver: chrome on WINDOWS (72c28f983fb471056f8c5f15872d31e8)
+2021-08-21 13:38:33,069 INFO p.EpamMain [pool-1-thread-3] Запущен сайт
+2021-08-21 13:38:34,693 INFO p.EpamMain [pool-1-thread-4] Запущен сайт
+2021-08-21 13:38:39,194 INFO p.EpamMain [pool-1-thread-3] Перешли на вклалку Events
+2021-08-21 13:38:39,807 INFO w.BaseHooks [pool-1-thread-4] Очистка cookies
+2021-08-21 13:38:43,913 INFO w.BaseHooks [pool-1-thread-1] Закрытие браузера 
+
+
+2021-08-21 13:38:47,676 INFO w.BaseHooks [pool-1-thread-2] Закрытие браузера 
+
+

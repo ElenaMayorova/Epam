@@ -52,10 +52,9 @@
                 <version>2.20</version>
                 <configuration>
                     <parallel>all</parallel>
+                    <perCoreThreadCount>true</perCoreThreadCount>
                     <threadCount>6</threadCount>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <!--                    <parallel>all</parallel>-->
-                    <!--                    <threadCount>5</threadCount>-->
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <!--                    <testFailureIgnore>false</testFailureIgnore>-->
                     <argLine>
