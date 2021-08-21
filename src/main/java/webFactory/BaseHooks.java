@@ -37,9 +37,9 @@ public class BaseHooks {
         }
 
         if (driver != null) {
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-            waitExplicit = new WebDriverWait(driver, 10);
+            waitExplicit = new WebDriverWait(driver, 20);
         } else {
             driver = WebDriverFactory.createDriver(WebDriverType.OPERA);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
