@@ -1,3 +1,4 @@
+import io.qameta.allure.Feature;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
@@ -12,6 +13,7 @@ public class viewEventCardsTest extends BaseHooks {
     private static final Logger logger = LogManager.getLogger(viewEventCardsTest.class);
 
     @Test
+    @Feature("Просмотр карточек прошедших мероприятий")
     public void viewEventCards (){
         //Открываем сайт мероприятий EPAM
         epamMain.open();
