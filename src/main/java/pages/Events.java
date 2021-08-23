@@ -56,6 +56,7 @@ public class Events extends EpamMain {
     public void openUpcomingEvents() {
         getClickableElement(UPCOMINGEVENTS).click();
         logger.info("Перешли на будущие мероприятия");
+        waitInvisibleElement(LOADER);
         Allure.addAttachment("Просмотр предстоящих мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 
     }
@@ -67,6 +68,7 @@ public class Events extends EpamMain {
     public void openPastEvents() {
         getClickableElement(PASTGEVENTS).click();
         logger.info("Перешли на прошлые мероприятия");
+        waitInvisibleElement(LOADER);
         Allure.addAttachment("Просмотр прошедших мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 
     }
@@ -163,7 +165,7 @@ public class Events extends EpamMain {
         Allure.addAttachment("Проверка полей карточки", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
-    @Step("Получение датыа мероприятия первой карточки")
+    @Step("Получение даты мероприятия первой карточки")
     @DisplayName("Получение датыа мероприятия первой карточки")
     public String getCardDate() {
         logger.info(getVisibilityElement(EVENTDATE).getText());
@@ -247,7 +249,11 @@ public class Events extends EpamMain {
     public void clickLocationCanada() {
         waitInvisibleElement(LOADER);
         getVisibilityElement(LOCATION).click();
+        Allure.addAttachment("Выбор фильтра Location", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         getClickableElement(CANADA).click();
+        waitInvisibleElement(LOADER);
+        Allure.addAttachment("Выбираем локацию Канада", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+
     }
 
 
