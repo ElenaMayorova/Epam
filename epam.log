@@ -1319,3 +1319,485 @@
 2021-08-23 00:24:39,363 INFO w.BaseHooks [main] Закрытие браузера 
 
 
+2021-08-23 00:28:51,669 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 00:29:04,763 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (662106a7a11a4e01159da3ff77d0fbbd)
+2021-08-23 00:29:14,458 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 00:29:23,519 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 00:29:25,854 INFO p.Events [main] Перешли на будущие мероприятия
+2021-08-23 00:29:27,524 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 00:29:30,034 INFO p.Events [main] 1 Feb - 25 Aug 2025
+2021-08-23 00:29:30,342 INFO p.Events [main] dateStringEnd=   25 Aug 2025
+2021-08-23 00:29:30,343 INFO p.Events [main] dateStringBegin=  1 Feb 2025
+2021-08-23 00:29:30,345 INFO p.Events [main] dateStringEnd=   25 Aug 2025
+2021-08-23 08:54:54,770 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 08:55:09,481 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d62033f61abec1e74b7e48baf8486c9b)
+2021-08-23 08:55:23,944 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 08:55:34,489 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 08:55:35,793 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 08:55:36,814 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 08:55:37,705 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 08:55:37,942 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 08:55:41,236 INFO p.Events [main] Даты проведенных мероприятийменьше текущей даты
+2021-08-23 08:55:41,401 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 08:55:42,939 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:05:23,193 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:05:32,566 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (da04c99dd8574895d7f57f702262ce86)
+2021-08-23 09:05:36,529 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:05:44,368 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:05:45,306 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:05:46,009 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:05:47,375 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:05:47,598 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:05:50,296 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:05:50,297 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:05:50,599 INFO p.Events [main] 1
+2021-08-23 09:05:50,765 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:05:50,995 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:05:53,020 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:06:45,749 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:06:54,323 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (2aeac6a2519e51df97802b72729fd364)
+2021-08-23 09:07:01,382 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:07:07,401 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:07:08,452 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:07:09,531 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:07:10,545 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:07:10,704 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:07:13,678 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:07:13,680 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:07:15,178 INFO p.Events [main] 1
+2021-08-23 09:07:15,442 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:07:15,502 INFO p.Events [main] 12
+2021-08-23 09:07:15,723 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:07:17,760 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:11:01,525 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:11:10,684 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (34e61d98515530267006c81bbc3de0c6)
+2021-08-23 09:11:14,944 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:11:21,708 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:11:22,672 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:11:23,819 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:11:24,894 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:11:25,072 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:11:27,166 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:11:27,166 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:11:47,490 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:11:48,909 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:12:40,436 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:12:49,597 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f0d5a61e6aef9feb85822c8d6fd11a05)
+2021-08-23 09:12:57,503 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:13:01,793 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:13:03,068 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:13:04,090 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:13:04,841 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:13:05,004 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:13:07,124 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:13:07,124 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:13:27,536 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:13:29,169 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:16:01,566 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:16:10,687 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (c5e85d6e0554892dccc2b99623717b8c)
+2021-08-23 09:16:19,468 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:16:25,680 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:16:26,726 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:16:27,819 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:16:28,859 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:16:29,034 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:16:31,396 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:16:31,397 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:16:51,690 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:16:52,938 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:17:37,095 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:17:46,377 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (0805b5b202519e1695d7458146601ff9)
+2021-08-23 09:17:54,778 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:18:00,011 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:18:00,901 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:18:01,948 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:18:03,000 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:18:03,294 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:18:05,736 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:18:05,738 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:18:25,994 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:18:27,576 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:19:41,829 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:19:50,762 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (ca0d9b9268ce448447f707d675ce4a26)
+2021-08-23 09:19:54,585 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:19:59,463 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:20:00,895 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:20:02,101 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:20:03,029 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 09:20:03,205 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 09:20:05,939 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 09:20:05,940 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:20:06,225 INFO p.Events [main] 756
+2021-08-23 09:20:06,412 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:20:06,460 INFO p.Events [main] 12
+2021-08-23 09:20:06,719 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:20:08,372 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:22:16,494 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:22:27,318 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (77010c81446678972e387b5f4d01bba4)
+2021-08-23 09:22:40,174 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:22:47,273 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:22:48,376 INFO p.Events [main] Перешли на будущие мероприятия
+2021-08-23 09:22:48,999 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:22:48,999 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:22:49,284 INFO p.Events [main] 1
+2021-08-23 09:22:49,446 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:22:49,484 INFO p.Events [main] 1
+2021-08-23 09:22:49,531 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 09:22:49,669 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:22:51,273 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:26:03,407 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:26:13,025 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8ede1243c57ba3da6e450b61d94b4d69)
+2021-08-23 09:26:27,435 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:26:34,573 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:26:36,820 INFO p.Events [main] Перешли на будущие мероприятия
+2021-08-23 09:26:37,599 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:26:37,599 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:26:37,857 INFO p.Events [main] 1
+2021-08-23 09:26:38,034 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:26:38,069 INFO p.Events [main] 1
+2021-08-23 09:26:38,121 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 09:26:38,277 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:26:39,471 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:40:11,535 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:40:20,643 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (56d8702f43f3eb2963cf8eecba35cdfc)
+2021-08-23 09:40:31,119 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:40:37,930 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:40:38,934 INFO p.Events [main] Перешли на будущие мероприятия
+2021-08-23 09:40:39,601 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:40:39,602 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:40:39,888 INFO p.Events [main] 1
+2021-08-23 09:40:40,049 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:40:40,085 INFO p.Events [main] 1
+2021-08-23 09:40:40,125 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 09:40:40,270 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:40:41,841 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:47:16,213 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:47:26,922 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f1fada2a12ea623614d3c7a4d80ad09d)
+2021-08-23 09:47:36,712 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:47:44,549 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:47:45,786 INFO p.Events [main] Перешли на будущие мероприятия
+2021-08-23 09:47:46,599 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 09:47:46,600 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming Events
+2021-08-23 09:47:46,929 INFO p.Events [main] 1
+2021-08-23 09:47:47,112 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 09:47:47,147 INFO p.Events [main] 1
+2021-08-23 09:47:47,201 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 09:47:47,381 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:47:49,056 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:49:17,295 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:49:26,027 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (47fdb2f1e9843b731ea4f4c49ba10dc9)
+2021-08-23 09:49:34,943 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:49:39,975 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:49:41,694 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:49:43,300 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:49:44,921 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:52:10,128 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:52:18,833 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (68fd79bd6318a0f480f0458ee5d0ca82)
+2021-08-23 09:52:30,289 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:52:34,718 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:52:36,446 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:52:38,166 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:52:39,778 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:57:10,050 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:57:18,949 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (92a742705056017eca7c41a5d655b5f9)
+2021-08-23 09:57:28,439 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:57:34,369 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:57:35,414 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:57:36,955 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:57:38,984 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 09:58:48,333 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 09:58:58,116 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8dec8883a9a912f009d93090a1a38810)
+2021-08-23 09:59:12,290 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 09:59:16,885 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 09:59:18,489 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 09:59:20,231 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 09:59:21,879 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:03:47,019 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:03:55,694 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f7452b1b089338ad9b00792548b1b2ce)
+2021-08-23 10:04:07,117 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:04:12,755 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:04:13,757 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:04:14,723 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 10:04:15,056 INFO p.Events [main] Выбрали в списке первую карточку
+2021-08-23 10:04:15,470 INFO p.Events [main] выполнена проверка наличия языка мероприятия     Ua
+2021-08-23 10:04:15,888 INFO p.Events [main] выполнена проверка наличия названия мероприятия    Teachers Internship Online Program
+2021-08-23 10:04:16,268 INFO p.Events [main] выполнена проверка наличия даты мероприятия    14 Jul - 12 Aug 2021
+2021-08-23 10:04:16,656 INFO p.Events [main] выполнена проверка наличия информации регистрации мероприятия     Registration closed
+2021-08-23 10:04:17,001 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:04:18,531 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:06:45,094 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:06:55,529 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (c5a17e77ad6d8e4879a337b9642ca28c)
+2021-08-23 10:07:04,508 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:07:42,340 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:07:45,373 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:07:46,292 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 10:07:46,641 INFO p.Events [main] Выбрали в списке первую карточку
+2021-08-23 10:07:47,036 INFO p.Events [main] выполнена проверка наличия языка мероприятия     Ua
+2021-08-23 10:07:47,384 INFO p.Events [main] выполнена проверка наличия названия мероприятия    Teachers Internship Online Program
+2021-08-23 10:07:47,725 INFO p.Events [main] выполнена проверка наличия даты мероприятия    14 Jul - 12 Aug 2021
+2021-08-23 10:07:48,116 INFO p.Events [main] выполнена проверка наличия информации регистрации мероприятия     Registration closed
+2021-08-23 10:07:48,448 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:07:49,898 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:08:22,971 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:08:32,134 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (1b435e8f807590ba964bb9988152584d)
+2021-08-23 10:08:48,394 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:08:52,732 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:08:54,366 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:08:56,046 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:08:57,652 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:12:05,552 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:12:14,386 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (05b7ec4b3ca21c01343e96056043b988)
+2021-08-23 10:12:23,014 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:12:29,453 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:12:30,546 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:12:32,292 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:12:34,324 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:13:08,534 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:13:20,377 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8ad2d7c966e5e53055d75a8e0ae1319a)
+2021-08-23 10:13:33,074 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:13:39,053 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:13:40,149 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:13:41,921 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:13:44,133 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:16:27,098 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:16:36,884 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (c75f92a1c96e764a8822b5219ba83e85)
+2021-08-23 10:16:40,769 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:16:47,354 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:16:48,991 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:16:50,589 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:16:52,150 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:39:03,137 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:39:13,717 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (b73a252450243675232c97333a2b32dc)
+2021-08-23 10:39:25,110 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:39:29,321 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:39:32,064 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:39:33,317 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:39:35,051 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:41:19,939 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:41:30,252 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (01b6662f3563b5192a87d229bb45e0f9)
+2021-08-23 10:41:40,820 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:42:11,053 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:42:12,444 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:43:21,600 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:43:31,298 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (420453be7186cf7463d3abaf62807376)
+2021-08-23 10:43:44,362 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:44:14,584 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:44:15,871 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:46:22,834 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:46:32,061 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (08272f895eb35d84e5ce2d723c7617ba)
+2021-08-23 10:46:44,228 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:46:48,676 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:47:21,251 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:47:22,580 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:51:40,070 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:51:49,312 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (dc52d84cbb3c4f2ae171e8de07388b7c)
+2021-08-23 10:52:05,843 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:52:11,698 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:52:12,692 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:52:43,814 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:52:45,139 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 10:58:32,910 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 10:58:41,972 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (f283c69e1e2b276deb877eb9f1f44ba7)
+2021-08-23 10:58:51,254 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 10:58:55,628 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 10:58:57,348 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 10:58:59,042 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 10:59:00,696 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:05:46,287 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:05:55,875 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (d8c416e9af9fd9e9d06a33f026ca9ce0)
+2021-08-23 11:06:09,259 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:06:13,647 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:06:15,439 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:06:17,052 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:06:18,684 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:10:27,863 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:10:37,011 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (2287a15e8ab7b1f19613f1a4bc63980a)
+2021-08-23 11:10:49,120 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:10:53,339 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:10:54,931 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:10:56,527 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:10:58,120 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:12:11,792 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:12:20,358 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (da2c464d4b849c9f15912e251829c3cd)
+2021-08-23 11:13:37,836 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:13:47,027 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (bf1e3d6c4fc34faba17bfc964e336458)
+2021-08-23 11:14:00,195 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:14:05,272 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:14:07,327 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:14:09,033 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:14:10,704 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:16:05,957 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:16:15,622 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8ebd5410280c6fa8825037be554903a2)
+2021-08-23 11:16:33,583 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:16:39,819 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:16:40,872 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:16:42,998 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:16:44,312 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:19:39,207 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:19:48,921 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (367fe964e65eb6e728a6b57bfe51ba0d)
+2021-08-23 11:19:59,743 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:20:04,637 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:20:06,331 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:23:16,627 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:23:28,261 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:39:25,331 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:39:35,360 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (655bb3bec14a61d80a375e5d304b2194)
+2021-08-23 11:39:43,786 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:39:50,231 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:39:51,356 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:40:22,607 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:40:24,105 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:51:08,163 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:51:19,605 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (277721ee34e8804bcd93b36904bc05c5)
+2021-08-23 11:51:26,889 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:51:33,766 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:51:35,083 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:51:36,977 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 11:51:37,951 INFO p.Events [main] 14 Jul - 12 Aug 2021
+2021-08-23 11:51:38,154 INFO p.Events [main] dateStringEnd=   12 Aug 2021
+2021-08-23 11:51:40,834 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 11:51:40,834 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming/Past Events
+2021-08-23 11:51:41,183 INFO p.Events [main] 756
+2021-08-23 11:51:41,378 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 11:51:41,441 INFO p.Events [main] 12
+2021-08-23 11:51:41,684 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:51:43,423 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 11:54:50,623 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 11:55:02,004 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (a71ccf39e2a7de7b64b3a61939d5b113)
+2021-08-23 11:55:12,833 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 11:55:17,783 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 11:55:19,837 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 11:55:22,574 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 11:55:23,621 INFO p.Events [main] 4 - 11 Dec 2019
+2021-08-23 11:55:23,816 INFO p.Events [main] dateStringEnd=   11 Dec 2019
+2021-08-23 11:55:26,491 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 11:55:26,491 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming/Past Events
+2021-08-23 11:55:26,839 INFO p.Events [main] 1
+2021-08-23 11:55:27,032 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 11:55:27,085 INFO p.Events [main] 1
+2021-08-23 11:55:27,148 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 11:55:27,301 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 11:55:29,454 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 12:09:00,999 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 12:09:09,900 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (8cc709b139958499cff9ce9c09da5bf4)
+2021-08-23 12:09:18,397 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 12:09:24,531 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 12:09:25,614 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 12:09:57,526 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 12:09:59,382 INFO p.Events [main] 4 - 11 Dec 2019
+2021-08-23 12:09:59,520 INFO p.Events [main] dateStringEnd=   11 Dec 2019
+2021-08-23 12:10:02,067 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 12:10:02,068 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming/Past Events
+2021-08-23 12:10:02,305 INFO p.Events [main] 1
+2021-08-23 12:10:02,459 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 12:10:02,512 INFO p.Events [main] 1
+2021-08-23 12:10:02,568 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 12:10:02,699 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 12:10:17,034 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 12:10:26,388 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (5db6adba9902fefce979df0e6fbf4860)
+2021-08-23 12:10:42,206 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 12:10:46,554 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 12:10:48,163 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 12:11:20,675 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 12:11:21,349 INFO p.Events [main] 4 - 11 Dec 2019
+2021-08-23 12:11:21,495 INFO p.Events [main] dateStringEnd=   11 Dec 2019
+2021-08-23 12:11:23,213 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 12:11:23,214 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming/Past Events
+2021-08-23 12:11:23,453 INFO p.Events [main] 1
+2021-08-23 12:11:23,599 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 12:11:23,647 INFO p.Events [main] 1
+2021-08-23 12:11:23,687 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 12:11:23,817 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 12:11:25,159 INFO w.BaseHooks [main] Закрытие браузера 
+
+
+2021-08-23 12:15:50,700 INFO w.BaseHooks [main] Инициализация драйвера
+2021-08-23 12:16:01,461 INFO w.BaseHooks [main] Запущен webdriver ChromeDriver: chrome on WINDOWS (ed12873af5b70478b227f5113952bb45)
+2021-08-23 12:16:24,965 INFO p.EpamMain [main] Запущен сайт
+2021-08-23 12:16:31,342 INFO p.EpamMain [main] Перешли на вклалку Events
+2021-08-23 12:16:32,376 INFO p.Events [main] Перешли на прошлые мероприятия
+2021-08-23 12:17:04,329 INFO p.Events [main] На странице отображаются карточки  мероприятий
+2021-08-23 12:17:05,076 INFO p.Events [main] 4 - 11 Dec 2019
+2021-08-23 12:17:05,227 INFO p.Events [main] dateStringEnd=   11 Dec 2019
+2021-08-23 12:17:07,009 INFO p.Events [main] Даты проведенных мероприятий меньше текущей даты
+2021-08-23 12:17:07,017 INFO p.Events [main] Cмотрим сколько мероприятий на кнопке Upcoming/Past Events
+2021-08-23 12:17:07,249 INFO p.Events [main] 1
+2021-08-23 12:17:07,402 INFO p.Events [main] Смотрим сколько карточек отображается на ЭФ
+2021-08-23 12:17:07,449 INFO p.Events [main] 1
+2021-08-23 12:17:07,480 INFO p.Events [main] Выполнена проверка количества карточек, оно равно счетчику на кнопке
+2021-08-23 12:17:07,650 INFO w.BaseHooks [main] Очистка cookies
+2021-08-23 12:17:08,922 INFO w.BaseHooks [main] Закрытие браузера 
+
+

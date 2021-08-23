@@ -1,7 +1,5 @@
 package webFactory;
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.impl.WebElementSelector;
-import com.codeborne.selenide.impl.WebElementsCollectionWrapper;
+
 import config.WebsiteConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.apache.logging.log4j.LogManager;
@@ -11,15 +9,11 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import java.util.List;
-import java.util.Locale;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.swing.text.html.CSS;
+import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class BaseHooks {
@@ -37,13 +31,13 @@ public class BaseHooks {
         }
 
         if (driver != null) {
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-            waitExplicit = new WebDriverWait(driver, 20);
+            waitExplicit = new WebDriverWait(driver, 30);
         } else {
             driver = WebDriverFactory.createDriver(WebDriverType.OPERA);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            waitExplicit = new WebDriverWait(driver, 10);
+            driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+            waitExplicit = new WebDriverWait(driver, 30);
             driver.manage().window().maximize();
         }
         logger.info("Запущен webdriver {}", driver);
@@ -79,4 +73,9 @@ public class BaseHooks {
     public static WebElement getVisibilityElement(By locator) {
         return waitExplicit.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
+
+    public static Boolean waitInvisibleElement(By locator) {
+        return waitExplicit.until(ExpectedConditions.invisibilityOfElementLocated(locator));
+    }
+
 }

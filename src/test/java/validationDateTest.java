@@ -24,7 +24,7 @@ public class validationDateTest extends BaseHooks {
         events.openUpcomingEvents();
 //        Проверяем наличие карточек мероприятий на ЭФ
         events.getCards();
-//        Проверяем,что дата мероприятия больше текущей датыы
+//        Проверяем,что дата мероприятия больше текущей даты
         events.checkDataEvents();
     }
 }

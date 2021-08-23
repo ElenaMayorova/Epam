@@ -17,17 +17,17 @@ public class viewUpcomingEventsTest extends BaseHooks {
     @Feature("Просмотр предстоящих мероприятий")
     public void viewUpcomingEvents() {
 
-        //Открываем сайт мероприятий EPAM
+//       Открываем сайт мероприятий EPAM
         epamMain.open();
         Assert.assertEquals("Events Portal", driver.getTitle());
-        //Открываем вкладку мероприятий
+//        Открываем вкладку мероприятий
         epamMain.openEvents();
 //        Открываем предстоящие мероприятия
         events.openUpcomingEvents();
 //        Проверяем наличие карточек мероприятий на ЭФ
-                events.getCards();
+        events.getCards();
 //       Проверяем,что количество карточек равно счетчику на кнопке Upcoming Events
-        events.assertUpcomingEvents();
+        events.assertUpcomingPastEvents();
     }
 
 }

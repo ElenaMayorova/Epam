@@ -9,24 +9,20 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.Assert;
-import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.ByteArrayInputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.Locale;
+import java.util.NoSuchElementException;
 
-import static webFactory.BaseHooks.getClickableElement;
-import static webFactory.BaseHooks.getVisibilityElement;
+import static com.codeborne.selenide.Selenide.$;
+import static webFactory.BaseHooks.*;
 
 public class Events extends EpamMain {
 
@@ -36,14 +32,18 @@ public class Events extends EpamMain {
     // локаторы
     private final By UPCOMINGEVENTS = By.xpath("//span[contains(text(),'Upcoming events')]");
     private final By PASTGEVENTS = By.xpath("//span[contains(text(),'Past Events')]");
-    private final By UPCOMINGEVENTSCOUNT = By.xpath("//span[contains(@class,'evnt-tab-counter evnt-label small white')]");
+    private final By UPCOMINGPASTEVENTSCOUNT = By.xpath("//a[contains(@class,'evnt-tab-link nav-link active')]/span[contains(@class,'evnt-tab-counter evnt-label small white')]");
     private final By COUNTCARD = By.cssSelector("div.evnt-event-card");
     private final By FIRSTCARD = By.xpath("/html/body/div[2]/div[1]/main/section[3]/div/div/div[2]/div/div/div/div[1]/div/a");
     private final By EVENTLANGUAGE = By.xpath("//p[contains(@class,'language')]/span");
     private final By EVENTNAME = By.xpath("//div[contains(@class,'evnt-event-name')]//h1");
     private final By EVENTDATE = By.xpath("//div[contains(@class,'evnt-event-dates')]//span[contains(@class,'date')]");
-    private final By REGISTRATIONINFO = By.xpath("//*[@class=\"evnt-dates-cell dates\"]//span[@class=\"status reg-close\"]");
-    private final By SPEAKERS = By.xpath("//*[@class=\"speakers-wrapper\"]");
+    private final By REGISTRATIONINFO = By.xpath("//*[@class='evnt-dates-cell dates']//span[@class='status reg-close']");
+    private final By SPEAKERS = By.xpath("//*[@class='speakers-wrapper']");
+    private final By LOCATION = By.xpath("//div[@id='filter_location']");
+    private final By LOADER = By.xpath("//*[contains(@class, 'evnt-global-loader')]");
+    private final By CANADA = By.xpath("//div[@class='evnt-checkbox form-check']//label[contains(@data-value,'Canada')]");
+
 
     public Events(WebDriver driver) {
         super(driver);
@@ -71,10 +71,11 @@ public class Events extends EpamMain {
 
     }
 
-    //Смотрим сколько мероприятий на кнопке Upcoming Events
+    //Смотрим сколько мероприятий на кнопке Upcoming/Past Events
     public String getUpcomingEventsCount() {
-        logger.info("Cмотрим сколько мероприятий на кнопке Upcoming Events");
-        return getClickableElement(UPCOMINGEVENTSCOUNT).getText();
+        logger.info("Cмотрим сколько мероприятий на кнопке Upcoming/Past Events");
+        logger.info(getClickableElement(UPCOMINGPASTEVENTSCOUNT).getText());
+        return getClickableElement(UPCOMINGPASTEVENTSCOUNT).getText();
     }
 
     //На странице отображаются карточки  мероприятий.
@@ -88,15 +89,14 @@ public class Events extends EpamMain {
     //проверяем сколько карточек на ЭФ
     public Integer getEventsCardsCount() {
         logger.info("Смотрим сколько карточек отображается на ЭФ");
+        logger.info(driver.findElements(COUNTCARD).size());
         return driver.findElements(COUNTCARD).size();
     }
 
-
-    //    Количество карточек равно счетчику на кнопке Upcoming Events
+    //    Количество карточек равно счетчику на кнопке мероприятий
     @Step("Проверка количества карточек на ЭФ и на элементе")
-    @Feature("Просмотр предстоящих мероприятий")
     @DisplayName("Выполняем проверку количества карточек, оно равно счетчику на кнопке")
-    public void assertUpcomingEvents() {
+    public void assertUpcomingPastEvents() {
         Assertions.assertEquals(getUpcomingEventsCount(),
                 String.valueOf(getEventsCardsCount()));
         logger.info("Выполнена проверка количества карточек, оно равно счетчику на кнопке");
@@ -170,7 +170,7 @@ public class Events extends EpamMain {
         return getVisibilityElement(EVENTDATE).getText();
     }
 
-        @Step("Преобразование второй даты,если диапазон")
+    @Step("Преобразование второй даты,если диапазон")
     public Date getDateEnd(String dateString) {
         Date dateEnd = null;
         String dateSgtingEnd = null;
@@ -194,7 +194,7 @@ public class Events extends EpamMain {
         String dateStringBegin = null;
         if (dateString.contains("-")) {
             dateStringBegin = dateString.split("-")[0];
-            dateStringBegin = dateStringBegin +( getDateEnd(dateString).getYear()+1900);
+            dateStringBegin = dateStringBegin + (getDateEnd(dateString).getYear() + 1900);
         }
         try {
             dateBegin = new SimpleDateFormat("dd MMM yyyy", Locale.ENGLISH).parse(dateStringBegin);
@@ -223,5 +223,32 @@ public class Events extends EpamMain {
         logger.info("Даты проведения мероприятий больше или равны текущей дате (или текущая дата находится в диапазоне дат проведения)");
 
     }
+
+
+    @Step("Проверка дат мероприятия")
+    @Feature("Просмотр прошедших мероприятий в Канаде")
+    @DisplayName("Даты проведенных мероприятий меньше текущей даты")
+    public void checkDataPastEvents() {
+        String dateString;
+        Date cardDate;
+        Date dateNow = new Date();
+        softAssertions = new SoftAssertions();
+        dateString = getCardDate();
+        cardDate = getDateEnd(dateString);
+        softAssertions.assertThat(cardDate.getDate()).isGreaterThanOrEqualTo(dateNow.getDate());
+        logger.info("Даты проведенных мероприятий меньше текущей даты");
+
+    }
+
+
+    @Step("Нажатие кнопки Location в блоке фильтров")
+    @Feature("Просмотр прошедших мероприятий в Канаде")
+    @DisplayName("Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке")
+    public void clickLocationCanada() {
+        waitInvisibleElement(LOADER);
+        getVisibilityElement(LOCATION).click();
+        getClickableElement(CANADA).click();
+    }
+
 
 }
