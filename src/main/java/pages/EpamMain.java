@@ -21,6 +21,7 @@ public class EpamMain extends AbstractPage {
 
     // локаторы
     private final By EVENTS = By.xpath("//*[@href='/events']");
+    private final By VIDEO = By.xpath("//*[@href='/video?f%5B0%5D%5Bmedia%5D%5B%5D=Video']");
     private final By ACCEPTCOOKIS = By.xpath("//button[@id='onetrust-accept-btn-handler']");
 
     public EpamMain(WebDriver driver) {
@@ -47,7 +48,14 @@ public class EpamMain extends AbstractPage {
         getClickableElement(EVENTS).sendKeys(Keys.ENTER);
         logger.info("Перешли на вклалку Events");
         Allure.addAttachment("Переход на вкладку Events", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-
+    }
+    //Переход на вклалку Video
+    @Step("Переход на вкладку Video")
+    @DisplayName("Переход на вкладку Video")
+    public void openVideo() {
+        getClickableElement(VIDEO).sendKeys(Keys.ENTER);
+        logger.info("Перешли на вклалку Video");
+        Allure.addAttachment("Переход на вкладку Events", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 }
 
