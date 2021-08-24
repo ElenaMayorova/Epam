@@ -26,7 +26,6 @@ import static webFactory.BaseHooks.*;
 
 public class Events extends EpamMain {
 
-    private final WebsiteConfig config = ConfigFactory.create(WebsiteConfig.class);
     private static final Logger logger = LogManager.getLogger(Events.class);
     protected SoftAssertions softAssertions;
     // локаторы
@@ -34,7 +33,7 @@ public class Events extends EpamMain {
     private final By PASTGEVENTS = By.xpath("//span[contains(text(),'Past Events')]");
     private final By UPCOMINGPASTEVENTSCOUNT = By.xpath("//a[contains(@class,'evnt-tab-link nav-link active')]/span[contains(@class,'evnt-tab-counter evnt-label small white')]");
     private final By COUNTCARD = By.cssSelector("div.evnt-event-card");
-    private final By FIRSTCARD = By.xpath("/html/body/div[2]/div[1]/main/section[3]/div/div/div[2]/div/div/div/div[1]/div/a");
+    private final By FIRSTCARD = By.cssSelector(".evnt-event-card");
     private final By EVENTLANGUAGE = By.xpath("//p[contains(@class,'language')]/span");
     private final By EVENTNAME = By.xpath("//div[contains(@class,'evnt-event-name')]//h1");
     private final By EVENTDATE = By.xpath("//div[contains(@class,'evnt-event-dates')]//span[contains(@class,'date')]");
