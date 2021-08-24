@@ -12,6 +12,7 @@ public class viewPastEventsCanadaTest extends BaseHooks {
     private Events events = new Events(driver);
     private static final Logger logger = LogManager.getLogger(viewPastEventsCanadaTest.class);
 
+
     @Test
     @Feature("Просмотр прошедших мероприятий Канады")
     public void viewPastEventsCanada() {
@@ -33,3 +34,4 @@ public class viewPastEventsCanadaTest extends BaseHooks {
     }
 
     }
+

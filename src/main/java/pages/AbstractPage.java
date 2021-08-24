@@ -11,5 +11,4 @@ public abstract class AbstractPage {
         this.driver = driver;
     }
 
-
 }

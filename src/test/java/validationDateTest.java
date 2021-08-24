@@ -12,6 +12,7 @@ public class validationDateTest extends BaseHooks {
     private Events events = new Events(driver);
     private static final Logger logger = LogManager.getLogger(validationDateTest.class);
 
+
     @Test
     @Feature("Валидация дат")
     public void viewUpcomingEvents() {
@@ -28,3 +29,4 @@ public class validationDateTest extends BaseHooks {
         events.checkDataEvents();
     }
 }
+

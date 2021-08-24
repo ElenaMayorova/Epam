@@ -12,6 +12,7 @@ public class viewEventCardsTest extends BaseHooks {
     private Events events = new Events(driver);
     private static final Logger logger = LogManager.getLogger(viewEventCardsTest.class);
 
+
     @Test
     @Feature("Просмотр карточек прошедших мероприятий")
     public void viewEventCards (){
@@ -28,3 +29,4 @@ public class viewEventCardsTest extends BaseHooks {
         events.checkCard();
     }
 }
+

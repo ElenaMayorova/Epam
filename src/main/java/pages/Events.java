@@ -11,17 +11,17 @@ import org.assertj.core.api.SoftAssertions;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import java.io.ByteArrayInputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
-import java.util.NoSuchElementException;
 
-import static com.codeborne.selenide.Selenide.$;
 import static webFactory.BaseHooks.*;
 
 public class Events extends EpamMain {
@@ -54,11 +54,11 @@ public class Events extends EpamMain {
     @Feature("Просмотр предстоящих мероприятий")
     @DisplayName("Переход на вкладку предстоящих мероприятий")
     public void openUpcomingEvents() {
+        waitInvisibleElement(LOADER);
         getClickableElement(UPCOMINGEVENTS).click();
         logger.info("Перешли на будущие мероприятия");
-        waitInvisibleElement(LOADER);
         Allure.addAttachment("Просмотр предстоящих мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-
+        waitInvisibleElement(LOADER);
     }
 
     // Открытие прошедших мероприятий
@@ -66,6 +66,7 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий")
     @DisplayName("Переход на вкладку прошедших мероприятий")
     public void openPastEvents() {
+        waitInvisibleElement(LOADER);
         getClickableElement(PASTGEVENTS).click();
         logger.info("Перешли на прошлые мероприятия");
         waitInvisibleElement(LOADER);
@@ -75,6 +76,7 @@ public class Events extends EpamMain {
 
     //Смотрим сколько мероприятий на кнопке Upcoming/Past Events
     public String getUpcomingEventsCount() {
+        waitInvisibleElement(LOADER);
         logger.info("Cмотрим сколько мероприятий на кнопке Upcoming/Past Events");
         logger.info(getClickableElement(UPCOMINGPASTEVENTSCOUNT).getText());
         return getClickableElement(UPCOMINGPASTEVENTSCOUNT).getText();
@@ -84,12 +86,14 @@ public class Events extends EpamMain {
     @Step("Наличие карточек на ЭФ")
     @DisplayName("Наличие карточек на ЭФ при переходе на прошедшие/будущие мероприятия")
     public void getCards() {
+        waitInvisibleElement(LOADER);
         Assertions.assertNotEquals(driver.findElements(COUNTCARD).size(), 0);
         logger.info("На странице отображаются карточки  мероприятий");
     }
 
     //проверяем сколько карточек на ЭФ
     public Integer getEventsCardsCount() {
+        waitInvisibleElement(LOADER);
         logger.info("Смотрим сколько карточек отображается на ЭФ");
         logger.info(driver.findElements(COUNTCARD).size());
         return driver.findElements(COUNTCARD).size();
@@ -99,6 +103,7 @@ public class Events extends EpamMain {
     @Step("Проверка количества карточек на ЭФ и на элементе")
     @DisplayName("Выполняем проверку количества карточек, оно равно счетчику на кнопке")
     public void assertUpcomingPastEvents() {
+        waitInvisibleElement(LOADER);
         Assertions.assertEquals(getUpcomingEventsCount(),
                 String.valueOf(getEventsCardsCount()));
         logger.info("Выполнена проверка количества карточек, оно равно счетчику на кнопке");
@@ -106,6 +111,7 @@ public class Events extends EpamMain {
 
     //Выбираем первую карточку прошедших мероприятий
     public void selectFirstcard() {
+        waitInvisibleElement(LOADER);
         getClickableElement(FIRSTCARD);
         logger.info("Выбрали в списке первую карточку");
     }
@@ -151,6 +157,7 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий")
     @DisplayName("Проверка  заполнения полей:язык, название, дата. регистрация.сискеры в карточке")
     public void checkCard() {
+        waitInvisibleElement(LOADER);
         selectFirstcard();
         Assert.assertNotEquals(checkLanguage(), "");
         logger.info("выполнена проверка наличия языка мероприятия     " + checkLanguage());
@@ -189,7 +196,6 @@ public class Events extends EpamMain {
         return dateEnd;
     }
 
-
     @Step("Преобразование первой даты,если диапазон")
     public Date getDateBegin(String dateString) {
         Date dateBegin = null;
@@ -212,6 +218,7 @@ public class Events extends EpamMain {
     @Feature("Валидация дат предстоящих мероприятий")
     @DisplayName("Даты проведения мероприятий больше или равны текущей дате (или текущая дата находится в диапазоне дат проведения)")
     public void checkDataEvents() {
+        waitInvisibleElement(LOADER);
         String dateString;
         Date cardDateBegin;
         Date cardDateEnd;
@@ -231,6 +238,7 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий в Канаде")
     @DisplayName("Даты проведенных мероприятий меньше текущей даты")
     public void checkDataPastEvents() {
+        waitInvisibleElement(LOADER);
         String dateString;
         Date cardDate;
         Date dateNow = new Date();
@@ -242,7 +250,7 @@ public class Events extends EpamMain {
 
     }
 
-
+//Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке
     @Step("Нажатие кнопки Location в блоке фильтров")
     @Feature("Просмотр прошедших мероприятий в Канаде")
     @DisplayName("Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке")
@@ -253,8 +261,6 @@ public class Events extends EpamMain {
         getClickableElement(CANADA).click();
         waitInvisibleElement(LOADER);
         Allure.addAttachment("Выбираем локацию Канада", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-
+        waitInvisibleElement(LOADER);
     }
-
-
 }
