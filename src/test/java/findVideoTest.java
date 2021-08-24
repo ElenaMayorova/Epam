@@ -7,7 +7,7 @@ import pages.EpamMain;
 import pages.Video;
 import webFactory.BaseHooks;
 
-public class findVideo extends BaseHooks {
+public class findVideoTest extends BaseHooks {
 
     private EpamMain epamMain = new EpamMain(driver);
     private Video video = new Video(driver);
