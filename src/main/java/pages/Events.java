@@ -168,7 +168,7 @@ public class Events extends EpamMain {
     }
 
     @Step("Получение даты мероприятия первой карточки")
-    @DisplayName("Получение датыа мероприятия первой карточки")
+    @DisplayName("Получение даты мероприятия первой карточки")
     public String getCardDate() {
         waitInvisibleElement(LOADER);
         logger.info(getVisibilityElement(EVENTDATE).getText());

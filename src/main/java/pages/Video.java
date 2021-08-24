@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.junit.jupiter.api.DisplayName;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.Select;
 
 import java.io.ByteArrayInputStream;
 
@@ -24,9 +23,13 @@ public class Video extends EpamMain {
     //    Локаторы
     private final By MOREFILTER = By.xpath("//span[contains(text(),'More Filters')]");
     private final By LOADER = By.xpath("//*[contains(@class, 'evnt-global-loader')]");
-    private final By CATEGORY = By.xpath("//span[contains(text(),'Category')]");
-    private final By LOCATION = By.xpath("//span[contains(text(),'Location')]");
-    private final By LANGUAGE = By.xpath("//span[contains(text(),'Language')]");
+    //    private final By CATEGORY = By.xpath("//span[contains(text(),'Category')]");
+//    private final By LOCATION = By.xpath("//span[contains(text(),'Location')]");
+//    private final By LANGUAGE = By.xpath("//span[contains(text(),'Language')]");
+    private final By CATEGORYINPUT = By.xpath("//div[@aria-labelledby='filter_category']/div[@class='evnt-filter-menu-search-wrapper']/input");
+    private final By CATEGORY = By.xpath("//div[@id='filter_category']");
+    private final By LOCATION = By.xpath("//div[@id='filter_location']");
+    private final By LANGUAGE = By.xpath("//div[@id='filter_language']");
     private final By LANGUAGEINCARD = By.xpath("//div[@class='evnt-talk-details language evnt-now-past-talk']/span");
     private final By LOCATIONCARD = By.xpath("//div[@class='evnt-talk-details location evnt-now-past-talk']/span");
     private final By CATEGORYCARD = By.xpath("//div[@class='evnt-topics-wrapper']//label");
@@ -47,15 +50,14 @@ public class Video extends EpamMain {
 
     public void selectFilterValue(By filter, String value) {
         getVisibilityElement(filter).click();
-        getVisibilityElement(By.xpath("//div[@class='evnt-checkbox form-check']//label[contains(@data-value,'" + value + "')]")).click();
+        getClickableElement(By.xpath("//*[@data-value='" + value + "']")).click();
         Allure.addAttachment("Выбираем значение фильтра" + filter + "=" + value, new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 
     @Step("Filter")
     @DisplayName("Пользователь выбирает: Category – Testing, Location – Belarus, Language – English")
     public void filter() {
-
-        selectFilterValue(CATEGORY, "Design");
+        selectFilterValue(CATEGORY, "Testing");
         logger.info("Выбираем категорию тестирование");
         Allure.addAttachment("Выбираем категорию тестирование", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         selectFilterValue(LOCATION, "Belarus");
@@ -107,7 +109,7 @@ public class Video extends EpamMain {
         logger.info("выполнена проверка наличия языка мероприятия     " + checkCardLanguage());
         Assert.assertTrue(checkCardLocation().contains("Belarus"));
         logger.info("выполнена проверка наличия локации мероприятия     " + checkCardLocation());
-        Assert.assertTrue(checkCardCategory().contains("Design"));
+        Assert.assertTrue(checkCardCategory().contains("Testing"));
         logger.info("выполнена проверка наличия локации мероприятия     " + checkCardCategory());
     }
 
