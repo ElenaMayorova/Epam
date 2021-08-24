@@ -69,7 +69,7 @@ public class Events extends EpamMain {
         getClickableElement(PASTGEVENTS).click();
         logger.info("Перешли на прошлые мероприятия");
         Allure.addAttachment("Просмотр прошедших мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-
+        waitInvisibleElement(LOADER);
     }
 
     //Смотрим сколько мероприятий на кнопке Upcoming/Past Events
@@ -110,7 +110,6 @@ public class Events extends EpamMain {
     public void selectFirstcard() {
         waitInvisibleElement(LOADER);
         getClickableElement(FIRSTCARD);
-        waitInvisibleElement(LOADER);
         logger.info("Выбрали в списке первую карточку");
     }
 
@@ -125,7 +124,6 @@ public class Events extends EpamMain {
     @Step("Названия мероприятия")
     @DisplayName("Проверяем,что названия мероприятия не пустой")
     public String checkNameOfEvent() {
-
         return getVisibilityElement(EVENTNAME).getText();
     }
 
@@ -172,6 +170,7 @@ public class Events extends EpamMain {
     @Step("Получение даты мероприятия первой карточки")
     @DisplayName("Получение датыа мероприятия первой карточки")
     public String getCardDate() {
+        waitInvisibleElement(LOADER);
         logger.info(getVisibilityElement(EVENTDATE).getText());
         return getVisibilityElement(EVENTDATE).getText();
     }
