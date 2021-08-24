@@ -23,9 +23,6 @@ public class Video extends EpamMain {
     //    Локаторы
     private final By MOREFILTER = By.xpath("//span[contains(text(),'More Filters')]");
     private final By LOADER = By.xpath("//*[contains(@class, 'evnt-global-loader')]");
-    //    private final By CATEGORY = By.xpath("//span[contains(text(),'Category')]");
-//    private final By LOCATION = By.xpath("//span[contains(text(),'Location')]");
-//    private final By LANGUAGE = By.xpath("//span[contains(text(),'Language')]");
     private final By CATEGORYINPUT = By.xpath("//div[@aria-labelledby='filter_category']/div[@class='evnt-filter-menu-search-wrapper']/input");
     private final By CATEGORY = By.xpath("//div[@id='filter_category']");
     private final By LOCATION = By.xpath("//div[@id='filter_location']");
@@ -33,7 +30,7 @@ public class Video extends EpamMain {
     private final By LANGUAGEINCARD = By.xpath("//div[@class='evnt-talk-details language evnt-now-past-talk']/span");
     private final By LOCATIONCARD = By.xpath("//div[@class='evnt-talk-details location evnt-now-past-talk']/span");
     private final By CATEGORYCARD = By.xpath("//div[@class='evnt-topics-wrapper']//label");
-    private final By FIRSTCARD = By.xpath("/html/body/div[2]/div[1]/main/section[3]/div/div/div/div[2]/div[1]/div/a");
+    private final By FIRSTCARD = By.xpath("//div[contains(@class, 'evnt-talks-column')]");
     private final By INPUTTEXT = By.xpath("//input[@class='evnt-text-fields form-control evnt-search']");
     private final By CARDNAME = By.xpath("//div[@class='evnt-content-text']/h1");
 
@@ -71,7 +68,7 @@ public class Video extends EpamMain {
     //Проваливаемся в первую карточку
     public void selectFirstcard() {
         waitInvisibleElement(LOADER);
-        getClickableElement(FIRSTCARD).sendKeys(Keys.ENTER);
+        getClickableElement(FIRSTCARD).click();
         waitInvisibleElement(LOADER);
         logger.info("Выбрали в списке первую карточку");
     }
