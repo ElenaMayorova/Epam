@@ -37,7 +37,6 @@ public class EpamMain extends AbstractPage {
         logger.info("Запущен сайт", config.epamUrl());
         getClickableElement(ACCEPTCOOKIS).sendKeys(Keys.ENTER);
         Allure.addAttachment("Открываем сайт Epam", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-
         return this;
     }
 

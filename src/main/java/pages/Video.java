@@ -31,7 +31,9 @@ public class Video extends EpamMain {
     private final By LOCATIONCARD = By.xpath("//div[@class='evnt-talk-details location evnt-now-past-talk']/span");
     private final By CATEGORYCARD = By.xpath("//div[@class='evnt-topics-wrapper']//label");
     private final By FIRSTCARD = By.xpath("/html/body/div[2]/div[1]/main/section[3]/div/div/div/div[2]/div[1]/div/a");
-//    private final By INPUTTEXT = By.xpath("//div[@id='evnt-filter-menu evnt-dropdown-menu dropdown-menu with-arrow show']//input");
+    private final By INPUTTEXT = By.xpath("//input[@class='evnt-text-fields form-control evnt-search']");
+    private final By CARDNAME = By.xpath("//div[@class='evnt-content-text']/h1");
+
 
     @Step("More Filter")
     @DisplayName("Открываем расширенный фильтр")
@@ -68,6 +70,7 @@ public class Video extends EpamMain {
     public void selectFirstcard() {
         waitInvisibleElement(LOADER);
         getClickableElement(FIRSTCARD).sendKeys(Keys.ENTER);
+        waitInvisibleElement(LOADER);
         logger.info("Выбрали в списке первую карточку");
     }
 
@@ -88,6 +91,11 @@ public class Video extends EpamMain {
         return getVisibilityElement(CATEGORYCARD).getText();
     }
 
+    @Step("Извлекаем название из карточки доклада")
+    public String checkCardName() {
+        return getVisibilityElement(CARDNAME).getText();
+    }
+
     //Проверка  заполнения полей:язык, категория, локация в карточке
     @Step("Проверка полей карточки")
     @Feature("Фильтрация докладов по категориям")
@@ -101,6 +109,24 @@ public class Video extends EpamMain {
         logger.info("выполнена проверка наличия локации мероприятия     " + checkCardLocation());
         Assert.assertTrue(checkCardCategory().contains("Design"));
         logger.info("выполнена проверка наличия локации мероприятия     " + checkCardCategory());
+    }
+
+    //Проверка , что после фильтрации наименование доклада содержит слово из фильтра
+    @Step("Проверка полей карточки")
+    @Feature("Поиск докладов по ключевому слову")
+    @DisplayName("Проверка , что после фильтрации наименование доклада содержит слово из фильтра")
+    public void checkCardByWord() {
+        selectFirstcard();
+        Assert.assertTrue(checkCardName().contains("QA"));
+        logger.info("выполнена проверка наличия в названии мероприятия слова из фильтра     " + checkCardLanguage());
+    }
+
+    //Проверка  заполнения полей:язык, категория, локация в карточке
+    @Step("Поиск по ключевому слову")
+    @DisplayName("Фильтруем доклады по ключевому слову")
+    public void filterByWord(String value) {
+        waitInvisibleElement(LOADER);
+        getClickableElement(INPUTTEXT).sendKeys(value);
     }
 
 }

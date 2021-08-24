@@ -58,7 +58,6 @@ public class Events extends EpamMain {
         getClickableElement(UPCOMINGEVENTS).click();
         logger.info("Перешли на будущие мероприятия");
         Allure.addAttachment("Просмотр предстоящих мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        waitInvisibleElement(LOADER);
     }
 
     // Открытие прошедших мероприятий
@@ -69,7 +68,6 @@ public class Events extends EpamMain {
         waitInvisibleElement(LOADER);
         getClickableElement(PASTGEVENTS).click();
         logger.info("Перешли на прошлые мероприятия");
-        waitInvisibleElement(LOADER);
         Allure.addAttachment("Просмотр прошедших мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
 
     }
@@ -95,7 +93,6 @@ public class Events extends EpamMain {
     public Integer getEventsCardsCount() {
         waitInvisibleElement(LOADER);
         logger.info("Смотрим сколько карточек отображается на ЭФ");
-        logger.info(driver.findElements(COUNTCARD).size());
         return driver.findElements(COUNTCARD).size();
     }
 
@@ -113,6 +110,7 @@ public class Events extends EpamMain {
     public void selectFirstcard() {
         waitInvisibleElement(LOADER);
         getClickableElement(FIRSTCARD);
+        waitInvisibleElement(LOADER);
         logger.info("Выбрали в списке первую карточку");
     }
 
@@ -157,7 +155,6 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий")
     @DisplayName("Проверка  заполнения полей:язык, название, дата. регистрация.сискеры в карточке")
     public void checkCard() {
-        waitInvisibleElement(LOADER);
         selectFirstcard();
         Assert.assertNotEquals(checkLanguage(), "");
         logger.info("выполнена проверка наличия языка мероприятия     " + checkLanguage());
@@ -250,17 +247,17 @@ public class Events extends EpamMain {
 
     }
 
-//Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке
+    //Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке
     @Step("Нажатие кнопки Location в блоке фильтров")
     @Feature("Просмотр прошедших мероприятий в Канаде")
     @DisplayName("Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке")
     public void clickLocationCanada() {
         waitInvisibleElement(LOADER);
-        getVisibilityElement(LOCATION).click();
+        getClickableElement(LOCATION).click();
+        waitInvisibleElement(LOADER);
         Allure.addAttachment("Выбор фильтра Location", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         getClickableElement(CANADA).click();
         waitInvisibleElement(LOADER);
         Allure.addAttachment("Выбираем локацию Канада", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        waitInvisibleElement(LOADER);
     }
 }

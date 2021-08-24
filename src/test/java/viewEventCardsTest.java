@@ -16,16 +16,16 @@ public class viewEventCardsTest extends BaseHooks {
     @Test
     @Feature("Просмотр карточек прошедших мероприятий")
     public void viewEventCards (){
-        //Открываем сайт мероприятий EPAM
+//      Открываем сайт мероприятий EPAM
         epamMain.open();
         Assert.assertEquals("Events Portal", driver.getTitle());
-        //Открываем вкладку мероприятий
+//      Открываем вкладку мероприятий
         epamMain.openEvents();
 //        Открываем прошедших мероприятия
         events.openPastEvents();
 //        Проверяем наличие карточек мероприятий на ЭФ
         events.getCards();
-//Проверка  заполнения полей:язык, название, дата. регистрация.сискеры в карточке
+//      Проверка  заполнения полей:язык, название, дата. регистрация.сискеры в карточке
         events.checkCard();
     }
 }

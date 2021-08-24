@@ -7,27 +7,23 @@ import pages.EpamMain;
 import pages.Video;
 import webFactory.BaseHooks;
 
-public class reportsBycategoryTest extends BaseHooks {
+public class findVideo extends BaseHooks {
+
     private EpamMain epamMain = new EpamMain(driver);
     private Video video = new Video(driver);
     private static final Logger logger = LogManager.getLogger(reportsBycategoryTest.class);
 
-
     @Test
     @Feature("Фильтрация докладов по категориям")
-    public void viewUpcomingEvents() {
-//        Открываем сайт мероприятий EPAM
+    public void findVideoBeWord() {
+//      Открываем сайт мероприятий EPAM
         epamMain.open();
         Assert.assertEquals("Events Portal", driver.getTitle());
-//        Открываем вкладку докладов
+//      Открываем вкладку докладов
         epamMain.openVideo();
-//        Открываем рассширенный фильтр
-        video.openMoreFilter();
-//        Устанавливаем фильтр по локации, языку, категории
-        video.filter();
-//       Проверяем в карточкечто фильтр отработал корректно (локации, языку, категории = фильтру)
-        video.checkCard();
+//      Фильтруем по ключевому слову
+        video.filterByWord("QA");
+//      Проверяем,что в названии доклада содержится сдово из фильтра
+        video.checkCardByWord();
     }
-
-
 }
