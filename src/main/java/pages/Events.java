@@ -64,7 +64,6 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий")
     @DisplayName("Переход на вкладку прошедших мероприятий")
     public void openPastEvents() {
-        waitInvisibleElement(LOADER);
         getClickableElement(PASTGEVENTS).click();
         logger.info("Перешли на прошлые мероприятия");
         Allure.addAttachment("Просмотр прошедших мероприятий", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
@@ -73,7 +72,6 @@ public class Events extends EpamMain {
 
     //Смотрим сколько мероприятий на кнопке Upcoming/Past Events
     public String getUpcomingEventsCount() {
-        waitInvisibleElement(LOADER);
         logger.info("Cмотрим сколько мероприятий на кнопке Upcoming/Past Events");
         logger.info(getClickableElement(UPCOMINGPASTEVENTSCOUNT).getText());
         return getClickableElement(UPCOMINGPASTEVENTSCOUNT).getText();
@@ -83,7 +81,6 @@ public class Events extends EpamMain {
     @Step("Наличие карточек на ЭФ")
     @DisplayName("Наличие карточек на ЭФ при переходе на прошедшие/будущие мероприятия")
     public void getCards() {
-        waitInvisibleElement(LOADER);
         Assertions.assertNotEquals(driver.findElements(COUNTCARD).size(), 0);
         logger.info("На странице отображаются карточки  мероприятий");
     }
@@ -99,7 +96,6 @@ public class Events extends EpamMain {
     @Step("Проверка количества карточек на ЭФ и на элементе")
     @DisplayName("Выполняем проверку количества карточек, оно равно счетчику на кнопке")
     public void assertUpcomingPastEvents() {
-        waitInvisibleElement(LOADER);
         Assertions.assertEquals(getUpcomingEventsCount(),
                 String.valueOf(getEventsCardsCount()));
         logger.info("Выполнена проверка количества карточек, оно равно счетчику на кнопке");
@@ -107,7 +103,6 @@ public class Events extends EpamMain {
 
     //Выбираем первую карточку прошедших мероприятий
     public void selectFirstcard() {
-        waitInvisibleElement(LOADER);
         getClickableElement(FIRSTCARD);
         logger.info("Выбрали в списке первую карточку");
     }
@@ -161,7 +156,8 @@ public class Events extends EpamMain {
         logger.info("выполнена проверка наличия даты мероприятия    " + checkDateOfEvent());
         Assert.assertNotEquals(checkRegistrationInfo(), "");
         logger.info("выполнена проверка наличия информации регистрации мероприятия     " + checkRegistrationInfo());
-        Assert.assertNotEquals(checkSpeaker(), "");
+        Assert.assertNotNull(checkSpeaker());
+//        Assert.assertNotEquals(checkSpeaker(), "");
         logger.info("выполнена проверка наличия спикеров мероприятия    " + checkSpeaker());
         Allure.addAttachment("Проверка полей карточки", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
@@ -169,7 +165,6 @@ public class Events extends EpamMain {
     @Step("Получение даты мероприятия первой карточки")
     @DisplayName("Получение даты мероприятия первой карточки")
     public String getCardDate() {
-        waitInvisibleElement(LOADER);
         logger.info(getVisibilityElement(EVENTDATE).getText());
         return getVisibilityElement(EVENTDATE).getText();
     }
@@ -213,7 +208,6 @@ public class Events extends EpamMain {
     @Feature("Валидация дат предстоящих мероприятий")
     @DisplayName("Даты проведения мероприятий больше или равны текущей дате (или текущая дата находится в диапазоне дат проведения)")
     public void checkDataEvents() {
-        waitInvisibleElement(LOADER);
         String dateString;
         Date cardDateBegin;
         Date cardDateEnd;
@@ -233,7 +227,6 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий в Канаде")
     @DisplayName("Даты проведенных мероприятий меньше текущей даты")
     public void checkDataPastEvents() {
-        waitInvisibleElement(LOADER);
         String dateString;
         Date cardDate;
         Date dateNow = new Date();
@@ -250,12 +243,9 @@ public class Events extends EpamMain {
     @Feature("Просмотр прошедших мероприятий в Канаде")
     @DisplayName("Пользователь нажимает на Location в блоке фильтров и выбирает Canada в выпадающем списке")
     public void clickLocationCanada() {
-        waitInvisibleElement(LOADER);
         getClickableElement(LOCATION).click();
-        waitInvisibleElement(LOADER);
         Allure.addAttachment("Выбор фильтра Location", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         getClickableElement(CANADA).click();
-        waitInvisibleElement(LOADER);
         Allure.addAttachment("Выбираем локацию Канада", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
     }
 }

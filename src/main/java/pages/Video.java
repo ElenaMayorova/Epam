@@ -42,7 +42,6 @@ public class Video extends EpamMain {
         getClickableElement(MOREFILTER).click();
         logger.info("Открываем расширенный фильтр");
         Allure.addAttachment("Открываем расширенный фильтр", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        waitInvisibleElement(LOADER);
     }
 
     public void selectFilterValue(By filter, String value) {
@@ -100,7 +99,6 @@ public class Video extends EpamMain {
     @Feature("Фильтрация докладов по категориям")
     @DisplayName("Проверка  заполнения полей:язык, категория, локация в карточке")
     public void checkCard() {
-        waitInvisibleElement(LOADER);
         selectFirstcard();
         Assert.assertTrue(checkCardLanguage().contains("ENGLISH"));
         logger.info("выполнена проверка наличия языка мероприятия     " + checkCardLanguage());
@@ -124,7 +122,6 @@ public class Video extends EpamMain {
     @Step("Поиск по ключевому слову")
     @DisplayName("Фильтруем доклады по ключевому слову")
     public void filterByWord(String value) {
-        waitInvisibleElement(LOADER);
         getClickableElement(INPUTTEXT).sendKeys(value);
     }
 

@@ -46,17 +46,16 @@ public class EpamMain extends AbstractPage {
     @Step("Переход на вкладку Events")
     @DisplayName("Переход на вкладку Events")
     public void openEvents() {
-        waitInvisibleElement(LOADER);
         getClickableElement(EVENTS).sendKeys(Keys.ENTER);
         logger.info("Перешли на вклалку Events");
         Allure.addAttachment("Переход на вкладку Events", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        waitInvisibleElement(LOADER);
     }
 
     //Переход на вклалку Video
     @Step("Переход на вкладку Video")
     @DisplayName("Переход на вкладку Video")
     public void openVideo() {
-        waitInvisibleElement(LOADER);
         getClickableElement(VIDEO).sendKeys(Keys.ENTER);
         logger.info("Перешли на вклалку Video");
         Allure.addAttachment("Переход на вкладку Events", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
