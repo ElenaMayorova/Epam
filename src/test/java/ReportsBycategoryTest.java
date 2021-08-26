@@ -7,10 +7,10 @@ import pages.EpamMain;
 import pages.Video;
 import webFactory.BaseHooks;
 
-public class reportsBycategoryTest extends BaseHooks {
+public class ReportsBycategoryTest extends BaseHooks {
     private EpamMain epamMain = new EpamMain(driver);
     private Video video = new Video(driver);
-    private static final Logger logger = LogManager.getLogger(reportsBycategoryTest.class);
+    private static final Logger logger = LogManager.getLogger(ReportsBycategoryTest.class);
 
 
     @Test

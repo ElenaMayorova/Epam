@@ -7,17 +7,16 @@ import pages.EpamMain;
 import pages.Events;
 import webFactory.BaseHooks;
 
-
-public class viewUpcomingEventsTest extends BaseHooks {
+public class ValidationDateTest extends BaseHooks {
     private EpamMain epamMain = new EpamMain(driver);
     private Events events = new Events(driver);
-    private static final Logger logger = LogManager.getLogger(viewUpcomingEventsTest.class);
+    private static final Logger logger = LogManager.getLogger(ValidationDateTest.class);
+
 
     @Test
-    @Feature("Просмотр предстоящих мероприятий")
+    @Feature("Валидация дат")
     public void viewUpcomingEvents() {
-
-//       Открываем сайт мероприятий EPAM
+//        Открываем сайт мероприятий EPAM
         epamMain.open();
         Assert.assertEquals("Events Portal", driver.getTitle());
 //        Открываем вкладку мероприятий
@@ -26,9 +25,8 @@ public class viewUpcomingEventsTest extends BaseHooks {
         events.openUpcomingEvents();
 //        Проверяем наличие карточек мероприятий на ЭФ
         events.getCards();
-//       Проверяем,что количество карточек равно счетчику на кнопке Upcoming Events
-        events.assertUpcomingPastEvents();
+//        Проверяем,что дата мероприятия больше текущей даты
+        events.checkDataEvents();
     }
-
 }
 

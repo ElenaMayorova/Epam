@@ -7,10 +7,10 @@ import pages.EpamMain;
 import pages.Events;
 import webFactory.BaseHooks;
 
-public class viewPastEventsCanadaTest extends BaseHooks {
+public class ViewPastEventsCanadaTest extends BaseHooks {
     private EpamMain epamMain = new EpamMain(driver);
     private Events events = new Events(driver);
-    private static final Logger logger = LogManager.getLogger(viewPastEventsCanadaTest.class);
+    private static final Logger logger = LogManager.getLogger(ViewPastEventsCanadaTest.class);
 
 
     @Test

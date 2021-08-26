@@ -31,13 +31,13 @@ public class BaseHooks {
         }
 
         if (driver != null) {
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
             driver.manage().window().maximize();
-            waitExplicit = new WebDriverWait(driver, 10);
+            waitExplicit = new WebDriverWait(driver, 3);
         } else {
             driver = WebDriverFactory.createDriver(WebDriverType.OPERA);
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            waitExplicit = new WebDriverWait(driver, 10);
+            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+            waitExplicit = new WebDriverWait(driver, 3);
             driver.manage().window().maximize();
         }
         logger.info("Запущен webdriver {}", driver);
